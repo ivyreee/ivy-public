@@ -29,13 +29,9 @@ export class AppComponent {
     }
 
     this.data.push(newPet)
-
-    console.log(newPet)
   }
 
   onNext(a:any) {
-
-    console.log(a)
 
     const pet = this.data.find(data => data.id == a) as any
 
